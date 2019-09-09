@@ -14,7 +14,7 @@ require AutoLoader;
 # Items to export to callers namespace
 @EXPORT = qw();
 
-$VERSION = '1.1';
+$VERSION = '1.2';
 
 =pod
 
@@ -25,8 +25,8 @@ HTML::Clean - Cleans up HTML code for web browsers, not humans
 =head1 SYNOPSIS
 
   use HTML::Clean;
-  $h = new HTML::Clean($filename); # or..
-  $h = new HTML::Clean($htmlcode);
+  $h = HTML::Clean->new($filename); # or..
+  $h = HTML::Clean->new($htmlcode);
 
   $h->compat();
   $h->strip();
@@ -58,14 +58,8 @@ The entire proces is configurable, so you can pick and choose what you want
 to clean.
 
 =cut
+
 =head1 THE HTML::Clean CLASS
-
-=over 4
-
-=cut
-
-
-######################################################################
 
 =head2 $h = HTML::Clean->new($dataorfile, [$level]);
 
@@ -675,9 +669,11 @@ FrontPage::Web, FrontPage::File
 
 =back
 
-=head1 AUTHORS
+=head1 AUTHORS and CO-AUTHORS
 
 Paul Lindner for the International Telecommunication Union (ITU)
+
+Pavel Kuptsov <admin@modernperl.ru>
 
 =head1 COPYRIGHT
 
