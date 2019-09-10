@@ -42,13 +42,13 @@ It provides the following features:
 
 =over 8
 
-=item Remove unneeded whitespace (begining of line, etc)
+=item Remove unneeded whitespace (beginning of line, etc)
 
 =item Remove unneeded META elements.
 
 =item Remove HTML comments (except for styles, javascript and SSI)
 
-=item Replace tags with equivilant shorter tags (<strong> --> <b>)
+=item Replace tags with equivalent shorter tags (<strong> --> <b>)
 
 =item etc.
 
