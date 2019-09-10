@@ -54,7 +54,7 @@ It provides the following features:
 
 =back
 
-The entire proces is configurable, so you can pick and choose what you want
+The entire process is configurable, so you can pick and choose what you want
 to clean.
 
 =cut
