@@ -14,7 +14,7 @@ require AutoLoader;
 # Items to export to callers namespace
 @EXPORT = qw();
 
-$VERSION = '1.3';
+$VERSION = '1.4';
 
 =pod
 
